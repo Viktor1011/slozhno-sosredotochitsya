@@ -16,6 +16,7 @@
   --button-focus: rgba(255, 0, 112, 1);
   --section-header: #FF0070;
   --visibility: visible;
+  --background-color: #000028;
 }
 
 .page.theme_dark {
@@ -33,4 +34,5 @@
   --button-focus: rgba(255, 0, 112, 1);
   --section-header: #FF0070;
   --visibility: visible;
+  --background-color: #000028;
 }

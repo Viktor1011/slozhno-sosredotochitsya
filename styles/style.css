@@ -37,6 +37,8 @@
   background-color: transparent;
   font-size: 18px;
   cursor: pointer;
+  border: none;
+  padding: 1px 13px;
 }
 
 .header__theme-menu-button:hover {
@@ -67,15 +69,15 @@
 .decorated-zone::before {
   border-inline-end: 1px solid var(--accent-color);
   border-block-start: 1px solid var(--accent-color);
-  inset-inline-end: 10px;
-  inset-block-start: 10px;
+  inset-inline-end: clamp(10px, 2vw, 20px);
+  inset-block-start: clamp(10px, 2vw, 20px);
 }
 
 .decorated-zone::after {
   border-inline-start: 1px solid var(--accent-color);
   border-block-end: 1px solid var(--accent-color);
-  inset-inline-start: 10px;
-  inset-block-end: 10px;
+  inset-inline-start: clamp(10px, 2vw, 20px);
+  inset-block-end: clamp(10px, 2vw, 20px);
 }
 
 .rec {
@@ -103,11 +105,6 @@
   block-size: 9px;
 }
 
-.header__theme-menu-button {
-  border: none;
-  padding: 1px 13px;
-}
-
 .header__theme-menu-button_active {
   border: 1px solid var(--accent-color);
   cursor: default;
@@ -127,17 +124,14 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: var(--background-image);
-  background-attachment: fixed;
-  background-position: center;
-  object-fit: cover;
-  background-size: cover;
+  background-color: var(--background-color);
 } 
 
 .main {
   display: grid;
   gap: 30px;
   margin: 40px 0;
+  
 }
 
 .section {
@@ -227,7 +221,6 @@
   color: var(--title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 4px 4px 0 var(--accent-color);
-  font-size: 116px;
   font-weight: 700;
   line-height: 96px;
   margin: 286px 12px;
