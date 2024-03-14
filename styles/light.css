@@ -22,7 +22,7 @@
   --background-color: #FFF1F7;
 }
 
-:root.theme-light { 
+:root.theme-light {
   --title-color: rgba(255, 194, 230, 1);
   --main-text-color: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
@@ -47,7 +47,7 @@
     --button-hover: rgba(255, 0, 112, 0.4);
     --button-focus: #353430;
     --section-header: rgba(53, 52, 48, 1);
-    --visibility: hidden;  
+    --visibility: hidden;
     --background-color: #FFF1F7;
     }
   }

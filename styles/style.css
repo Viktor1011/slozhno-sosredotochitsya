@@ -125,6 +125,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--background-color);
+  background-attachment: fixed;
 } 
 
 .main {
@@ -316,17 +317,6 @@
   inset-inline-end: 28px;
   inset-block-start: 21px;
   }
-
-  .decorated-zone::before {
-    inset-inline-end: 20px;
-    inset-block-start: 20px;
-  }
-  
-  .decorated-zone::after {
-    inset-inline-start: 20px;
-    inset-block-end: 20px;
-  }
-
 }
 
 @media (width >= 1024px) {
