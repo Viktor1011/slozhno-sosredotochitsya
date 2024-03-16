@@ -61,7 +61,7 @@
 }
 
 .decorated-zone {
-  position: relative; 
+  position: relative;
 }
 
 .decorated-zone::before,
